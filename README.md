@@ -117,15 +117,15 @@ Finally, push your changes using `git push`:
 
 In GitHub, open your repository that contains your fork of the original repo. Once inside, you will see the changes you just pushed. Click on "Compare and pull request":
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/e709b41a-37b4-497d-8e06-4a22f9ba85c3)
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/c3d2ce0d-5fc9-4356-87d3-51b32e72524a)
 
 Include an appropriate title for your pull request and fill in the necessary information. Once you're done, click on "Create pull request".
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/9eba8015-8ea8-48dd-b802-c506cf58d478)
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/7de9c461-ad49-4fc2-b648-507662466851)
 
 Finally, you will see something like this:
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/26607469-83f3-45bd-9c52-a731dddd4409)
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/846c0b97-46d2-492b-a58e-3e9f669c1632)
 
 
 
