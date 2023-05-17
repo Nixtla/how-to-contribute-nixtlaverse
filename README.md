@@ -15,20 +15,31 @@ Your fork on your account will look like this:
 
 In that repository, you can make your changes and then request to have them added to the main repo.
 
+
 ## 2. Clone the repository.
 
-In this tutorial, we use Mac (also compatible with other Linux distributions). If you are a collaborator of Nixtla, you can request an AWS instance to collaborate from there. If this is the case, reach out to Max or Fede on Slack to receive the appropriate access.
+In this tutorial, we are using Mac (also compatible with other Linux distributions). If you are a collaborator of Nixtla, you can request an AWS instance to collaborate from there. If this is the case, please reach out to Max or Fede on Slack to receive the appropriate access. We also use Visual Studio Code, which you can download from [here](https://code.visualstudio.com/download).
 
 Once the repository is created, you need to clone it to your own computer. Simply copy the repository URL from GitHub as shown below:
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/bcff6abb-998f-45df-89d8-0edf200850f2)
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/c9bfd4de-9961-468d-bcfc-bf7c82756090)
+
+Then open Visual Studio Code, click on "Clone Git Repository," and paste the line you just copied into the top part of the window, as shown below:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/58847265-b7c9-4140-979d-1d2b2fb45a4b)
+
+Select the folder where you want to copy the repository:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/9776d80b-a031-4046-a8f5-0c5dc62a6ded)
+
+And choose to open the cloned repository:
 
 
-Then open a terminal, type `git clone`, and paste the copied URL, like this:
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/8ec5fdaf-9820-4177-8d45-b35fcd91199e)
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/82133c53-2af9-4ab0-b5ac-1da4a1f3ee03)
 
-The command will create a folder named mlforecast in the directory where you executed the command:
+You will end up with something like this:
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/b0cccfc6-a3a0-459e-a7c1-438c792424ea)
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/8be49410-9bef-41bd-a86b-8db1c897f1be)
 
