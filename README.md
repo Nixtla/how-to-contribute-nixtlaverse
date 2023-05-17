@@ -47,7 +47,7 @@ You will end up with something like this:
 
 Open a terminal within Visual Studio Code, as shown in the image:
 
-
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/63304c31-9030-494c-adb3-84ed51de4a69)
 
 We highly recommend using Mamba to speed up the creation of the Conda environment. To install it, simply use `conda install mamba -c conda-forge` in the terminal you just opened:
 
