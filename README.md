@@ -53,7 +53,6 @@ We highly recommend using Mamba to speed up the creation of the Conda environmen
 
 ![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/f3aac01e-1d59-476a-8311-bf69e54429f5)
 
-
 Create an empty environment named `mlforecast` with the following command: `mamba create -n mlforecast python=3.10`:
 
 <img width="1439" alt="image" src="https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/cf0b5f5d-b004-4fbb-9874-4457f827d1b7">
@@ -70,5 +69,51 @@ Install the libraries within the environment file `environment.yml` using `mamba
 Now install the library to make interactive changes and other additional dependencies using `pip install -e ".[dev]"`:
 
 <img width="1440" alt="image" src="https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/c4e24f10-3c87-467e-89da-67f585e30552">
+
+## 4. Make the changes you want.
+
+In this section, we assume that we want to increase the default number of windows used to create prediction intervals from 2 to 3. The first thing we need to do is create a specific branch for that change using `git checkout -b [new_branch]` like this:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/7a108df8-1d9b-4c0f-b32e-7cae923b0f6b)
+
+
+Once created, open the notebook you want to modify. In this case, it's `nbs/utils.ipynb`, which contains the metadata for the prediction intervals. After opening it, click on the environment you want to use (top right) and select the `mlforecast` environment:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/c7fb0add-d6c1-42a5-9198-641179d15a5f)
+
+
+Next, execute the notebook and make the necessary changes. In this case, we want to modify the `PredictionIntervals` class:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/aae5787f-1e00-4e0a-851b-f66c0c3e872e)
+
+
+We will change the default value of `n_window` from 2 to 3:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/fa2730bf-a073-401e-a2c8-53e0b23954a8)
+
+
+Once you have made the change and performed any necessary validations, it's time to convert the notebook to Python modules. To do this, simply use `nbdev_export` in the terminal.
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/c72e1259-2f37-4a2d-90b7-75e7e0b50db4)
+
+You will see that the `mlforecast/utils.py` file has been modified (the changes from `nbs/utils.ipynb` are reflected in that module). Before committing the changes, we need to clean the notebooks using the command `./action_files/clean_nbs` and verify that the linters pass using `./action_files/lint`:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/38034ab7-47d0-4730-9f3a-709de549be32)
+
+Once you have done the above, simply add the changes using `git add nbs/utils.ipynb mlforecast/utils.py`:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/5c86b9e5-b4bf-4048-8422-b8b72d59d98f)
+
+Create a descriptive commit message for the changes using `git commit -m "[description of changes]"`:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/3b242e24-b633-463e-ac94-e580c6139005)
+
+Finally, push your changes using `git push`:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/1d278ce1-82f2-4878-89de-eb56ac573a9f)
+
+
+
+
 
 
