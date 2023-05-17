@@ -43,3 +43,32 @@ You will end up with something like this:
 
 ![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/8be49410-9bef-41bd-a86b-8db1c897f1be)
 
+## 3. Create the Conda environment.
+
+Open a terminal within Visual Studio Code, as shown in the image:
+
+
+
+We highly recommend using Mamba to speed up the creation of the Conda environment. To install it, simply use `conda install mamba -c conda-forge` in the terminal you just opened:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/f3aac01e-1d59-476a-8311-bf69e54429f5)
+
+
+Create an empty environment named `mlforecast` with the following command: `mamba create -n mlforecast python=3.10`:
+
+<img width="1439" alt="image" src="https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/cf0b5f5d-b004-4fbb-9874-4457f827d1b7">
+
+Activate the newly created environment using `conda activate mlforecast`:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/1562e347-6c6c-48dd-9cf7-1dc81110e4fb)
+
+Install the libraries within the environment file `environment.yml` using `mamba env update -f environment.yml`:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/79b2b4be-db8b-405c-9205-4bd0aa2fa463)
+
+
+Now install the library to make interactive changes and other additional dependencies using `pip install -e ".[dev]"`:
+
+<img width="1440" alt="image" src="https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/c4e24f10-3c87-467e-89da-67f585e30552">
+
+
