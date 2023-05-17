@@ -12,12 +12,11 @@
 
 ## 1. Create a fork of the mlforecast repo.
 The first thing you need to do is create a fork of the GitHub repository to your own account:
-
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/e46d02e9-34c6-4efd-bea5-4087f6eae86e)
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/af767f5b-66f1-4068-9dd2-917096285ae9)
 
 Your fork on your account will look like this:
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/8571f460-681e-49e6-8b75-b70c4a1c2499)
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/912b848d-d3d1-4f79-9d5b-10dd66e1bd35)
 
 In that repository, you can make your changes and then request to have them added to the main repo.
 
@@ -27,26 +26,24 @@ In this tutorial, we are using Mac (also compatible with other Linux distributio
 
 Once the repository is created, you need to clone it to your own computer. Simply copy the repository URL from GitHub as shown below:
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/c9bfd4de-9961-468d-bcfc-bf7c82756090)
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/1331354e-ac24-4222-82f1-71df7077f2e0)
 
 Then open Visual Studio Code, click on "Clone Git Repository," and paste the line you just copied into the top part of the window, as shown below:
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/58847265-b7c9-4140-979d-1d2b2fb45a4b)
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/982827d5-89a6-43d4-8bb8-85bd1758bc10)
 
 Select the folder where you want to copy the repository:
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/9776d80b-a031-4046-a8f5-0c5dc62a6ded)
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/c1a169e6-df27-41fb-84ee-a441a149e3d6)
 
 And choose to open the cloned repository:
 
-
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/8ec5fdaf-9820-4177-8d45-b35fcd91199e)
-
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/00140c15-237e-4afa-a47d-078a1afbbac0)
 
 You will end up with something like this:
 
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/ea4aed6f-2000-4ec8-a242-36b9dfd68d26)
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/8be49410-9bef-41bd-a86b-8db1c897f1be)
 
 ## 3. Create the Conda environment.
 
