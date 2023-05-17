@@ -1,7 +1,14 @@
 # How to contribute to the Nixtlaverse
 
-
 > This repository contains instructions for collaborating on the different libraries of Nixtla. The instructions are specific to [mlforecast](https://github.com/Nixtla/mlforecast) but can be applied to [statsforecast](https://github.com/Nixtla/statsforecast) and [neuralforecast](https://github.com/Nixtla/neuralforecast) as well.
+
+# Table of Contents
+
+1. [Create a fork of the mlforecast repo.](https://github.com/Nixtla/how-to-contribute-nixtlaverse/tree/main#1-create-a-fork-of-the-mlforecast-repo)
+2. [Clone the repository](https://github.com/Nixtla/how-to-contribute-nixtlaverse#2-clone-the-repository)
+3. [Create the conda environment](https://github.com/Nixtla/how-to-contribute-nixtlaverse#3-create-the-conda-environment)
+4. [Make the changes you want](https://github.com/Nixtla/how-to-contribute-nixtlaverse#4-make-the-changes-you-want)
+5. [Create a pull request](https://github.com/Nixtla/how-to-contribute-nixtlaverse#5-create-a-pull-request)
 
 ## 1. Create a fork of the mlforecast repo.
 The first thing you need to do is create a fork of the GitHub repository to your own account:
