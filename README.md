@@ -12,9 +12,7 @@ Your fork on your account will look like this:
 
 ![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/8571f460-681e-49e6-8b75-b70c4a1c2499)
 
-
 In that repository, you can make your changes and then request to have them added to the main repo.
-
 
 ## 2. Clone the repository.
 
@@ -111,6 +109,21 @@ Create a descriptive commit message for the changes using `git commit -m "[descr
 Finally, push your changes using `git push`:
 
 ![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/1d278ce1-82f2-4878-89de-eb56ac573a9f)
+
+
+## 5. Create a pull request.
+
+In GitHub, open your repository that contains your fork of the original repo. Once inside, you will see the changes you just pushed. Click on "Compare and pull request":
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/e709b41a-37b4-497d-8e06-4a22f9ba85c3)
+
+Include an appropriate title for your pull request and fill in the necessary information. Once you're done, click on "Create pull request".
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/9eba8015-8ea8-48dd-b802-c506cf58d478)
+
+Finally, you will see something like this:
+
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/26607469-83f3-45bd-9c52-a731dddd4409)
 
 
 
