@@ -49,28 +49,26 @@ You will end up with something like this:
 
 Open a terminal within Visual Studio Code, as shown in the image:
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/63304c31-9030-494c-adb3-84ed51de4a69)
+<img width="1423" alt="image" src="https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/9b3ed42f-1a68-450c-bffd-a7cee40bb781">
 
 We highly recommend using Mamba to speed up the creation of the Conda environment. To install it, simply use `conda install mamba -c conda-forge` in the terminal you just opened:
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/f3aac01e-1d59-476a-8311-bf69e54429f5)
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/08482b00-9434-46f0-9452-c3f4920eca6d)
 
 Create an empty environment named `mlforecast` with the following command: `mamba create -n mlforecast python=3.10`:
-
-<img width="1439" alt="image" src="https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/cf0b5f5d-b004-4fbb-9874-4457f827d1b7">
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/5e9032e8-3f5b-4a1c-93e7-3d390d5f73f1)
 
 Activate the newly created environment using `conda activate mlforecast`:
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/1562e347-6c6c-48dd-9cf7-1dc81110e4fb)
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/803ae2b7-8369-4a24-9b7c-9326d52c13ef)
 
 Install the libraries within the environment file `environment.yml` using `mamba env update -f environment.yml`:
 
-![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/79b2b4be-db8b-405c-9205-4bd0aa2fa463)
-
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/e9672d58-b477-4963-9751-277c944a4d8a)
 
 Now install the library to make interactive changes and other additional dependencies using `pip install -e ".[dev]"`:
 
-<img width="1440" alt="image" src="https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/c4e24f10-3c87-467e-89da-67f585e30552">
+![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/501c8223-862d-40a9-8f2d-ecdaceaeaedb)
 
 ## 4. Make the changes you want.
 
