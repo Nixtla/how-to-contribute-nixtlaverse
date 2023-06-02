@@ -2,6 +2,43 @@
 
 > This repository contains instructions for collaborating on the different libraries of Nixtla. The instructions are specific to [mlforecast](https://github.com/Nixtla/mlforecast) but can be applied to [statsforecast](https://github.com/Nixtla/statsforecast) and [neuralforecast](https://github.com/Nixtla/neuralforecast) as well.
 
+Thank you for your interest in contributing to Nixtla. Nixtla is an open source project, and all types of contributions are welcome, whether they’re documentation changes, bug reports, bug fixes or new source code changes, ideas, discussion or whatever.
+
+
+# Intro
+
+If you're interested in contributing to the Nixtla project, we're excited to have you on board! The project adheres to the Git Flow convention, so you'll need to follow certain steps to ensure your contributions are effectively integrated. Here's a brief introduction to get you started:
+
+**1. Fork the Project:** 
+Start by forking the Nixtla repository to your own GitHub account. This creates a personal copy of the project where you can make changes without affecting the main repository.
+
+**2. Clone the Forked Repository and Set Up a Conda Environment:**
+Clone the forked repository to your local machine using `git clone https://github.com/<your-username>/nixtla.git`. This allows you to work with the code directly on your system.
+
+Next, you'll need to set up a Conda environment. First, ensure you have Anaconda or Miniconda installed on your system. Then, you can create a new Conda environment using `conda create -n nixtla-env python=3.10`. Activate your new environment with `conda activate nixtla-env`. (See concrete instructions below.)
+
+**3. Create a Feature Branch:** 
+Create a new branch for the feature you're working on using `git checkout -b feature/your-feature-name`.
+
+**4. Make Your Changes:** 
+Make changes to the codebase, ensuring your changes are self-contained and cohesive.
+
+**5. Commit Your Changes:** 
+Add the changed files using `git add .`, then commit these changes using `git commit -m "Your descriptive commit message"`.
+
+**6. Push Your Changes:** 
+Push your changes to the remote repository on GitHub with `git push origin feature/your-feature-name`.
+
+**7. Open a Pull Request:** 
+Open a pull request from your new branch on the Nixtla repository on GitHub. Provide a thorough description of your changes when creating the pull request.
+
+**8. Wait for Review:** 
+The maintainers of the Nixtla project will review your changes. Be ready to iterate on your contributions based on their feedback.
+
+Remember, contributing to open-source projects is a collaborative effort. Respect the work of others, welcome feedback, and always strive to improve. Happy coding!
+
+You can find a detailed step by step buide with screen shots below.
+
 # Table of Contents
 
 1. [Create a fork of the mlforecast repo.](https://github.com/Nixtla/how-to-contribute-nixtlaverse/tree/main#1-create-a-fork-of-the-mlforecast-repo)
@@ -22,7 +59,7 @@ In that repository, you can make your changes and then request to have them adde
 
 ## 2. Clone the repository.
 
-In this tutorial, we are using Mac (also compatible with other Linux distributions). If you are a collaborator of Nixtla, you can request an AWS instance to collaborate from there. If this is the case, please reach out to Max or Fede on Slack to receive the appropriate access. We also use Visual Studio Code, which you can download from [here](https://code.visualstudio.com/download).
+In this tutorial, we are using Mac (also compatible with other Linux distributions). If you are a collaborator of Nixtla, you can request an AWS instance to collaborate from there. If this is the case, please reach out to Max or Fede on [Slack](https://join.slack.com/t/nixtlacommunity/shared_invite/zt-1pmhan9j5-F54XR20edHk0UtYAPcW4KQ) to receive the appropriate access. We also use Visual Studio Code, which you can download from [here](https://code.visualstudio.com/download).
 
 Once the repository is created, you need to clone it to your own computer. Simply copy the repository URL from GitHub as shown below:
 
@@ -51,7 +88,7 @@ Open a terminal within Visual Studio Code, as shown in the image:
 
 <img width="1423" alt="image" src="https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/9b3ed42f-1a68-450c-bffd-a7cee40bb781">
 
-We highly recommend using Mamba to speed up the creation of the Conda environment. To install it, simply use `conda install mamba -c conda-forge` in the terminal you just opened:
+You can use conda but we highly recommend using Mamba to speed up the creation of the Conda environment. To install it, simply use `conda install mamba -c conda-forge` in the terminal you just opened:
 
 ![image](https://github.com/Nixtla/how-to-contribute-nixtlaverse/assets/10517170/08482b00-9434-46f0-9452-c3f4920eca6d)
 
