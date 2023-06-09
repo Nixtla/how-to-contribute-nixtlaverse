@@ -1,4 +1,4 @@
-# How to contribute to the Nixtlaverse
+# Step-by-step Contribution Guide
 
 > This repository contains instructions for collaborating on the different libraries of Nixtla. The instructions are specific to [mlforecast](https://github.com/Nixtla/mlforecast) but can be applied to [statsforecast](https://github.com/Nixtla/statsforecast) and [neuralforecast](https://github.com/Nixtla/neuralforecast) as well.
 
@@ -8,6 +8,12 @@ Thank you for your interest in contributing to Nixtla. Nixtla is an open source 
 # Intro
 
 If you're interested in contributing to the Nixtla project, we're excited to have you on board! The project adheres to the Git Flow convention, so you'll need to follow certain steps to ensure your contributions are effectively integrated. Here's a brief introduction to get you started:
+
+**0. Prerequisites:**
+
+- *GitHub*: You should already have a GitHub account and a basic understanding of its functionalities. Alternatively check [this guide](https://docs.github.com/en/get-started).
+- *Python*: Python should be installed on your system. Alternatively check [this guide](https://www.python.org/downloads/). 
+- *conda*: You need to have conda installed, along with a good grasp of fundamental operations such as creating environments, and activating and deactivating them.  Alternatively check [this guide](https://conda.io/projects/conda/en/latest/user-guide/install/index.html). 
 
 **1. Fork the Project:** 
 Start by forking the Nixtla repository to your own GitHub account. This creates a personal copy of the project where you can make changes without affecting the main repository.
