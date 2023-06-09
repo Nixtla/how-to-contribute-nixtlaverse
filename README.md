@@ -4,6 +4,7 @@
 
 Thank you for your interest in contributing to Nixtla. Nixtla is an open source project, and all types of contributions are welcome, whether they’re documentation changes, bug reports, bug fixes or new source code changes, ideas, discussion or whatever.
 
+Sometimes, diving into a new technology can be challenging and overwhelming. We've been there too, and we're more than ready to assist you with any issues you may encounter while following these steps. Don't hesitate to reach out to us on [Slack](https://join.slack.com/t/nixtlacommunity/shared_invite/zt-1pmhan9j5-F54XR20edHk0UtYAPcW4KQ). Just give fede a ping, and she'll be glad to assist you.
 
 # Intro
 
