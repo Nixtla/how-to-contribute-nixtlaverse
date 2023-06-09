@@ -39,6 +39,8 @@ Remember, contributing to open-source projects is a collaborative effort. Respec
 
 You can find a detailed step by step buide with screen shots below.
 
+> Nixtla offers the possibility of assisting with stipends for computing infrastructure for our contributors. If you are interested, please join our [slack](https://nixtlacommunity.slack.com/join/shared_invite/zt-1pmhan9j5-F54XR20edHk0UtYAPcW4KQ#/shared-invite/email) and write to fede or Max.
+
 # Table of Contents
 
 1. [Create a fork of the mlforecast repo.](https://github.com/Nixtla/how-to-contribute-nixtlaverse/tree/main#1-create-a-fork-of-the-mlforecast-repo)
